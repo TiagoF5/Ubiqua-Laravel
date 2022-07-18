@@ -3,7 +3,7 @@
 Clone a aplicação para o servidor, em seguida acesse a pasta
 
     $ git clone https://github.com/TiagoF5/Ubiqua-Laravel.git
-    $ cd ubiqua
+    $ cd Ubiqua-Laravel
 
 Crie um arquivo `.env` baseado no `.env.example` e configure as variáveis de ambiente. (Não necessita de banco de dados)
 
