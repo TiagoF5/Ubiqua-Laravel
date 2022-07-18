@@ -2,8 +2,8 @@
 
 Clone a aplicação para o servidor, em seguida acesse a pasta
 
-    $ git clone https://github.com/jord3v/lps-v2.git
-    $ cd lps-v2
+    $ git clone https://github.com/TiagoF5/Ubiqua-Laravel.git
+    $ cd ubiqua
 
 Crie um arquivo `.env` baseado no `.env.example` e configure as variáveis de ambiente. (Não necessita de banco de dados)
 
@@ -36,12 +36,7 @@ no arquivo `routes/web.php` já adicionamos as seguintes rotas.
 ubiqua.uninassau.com.br
 ubiqua.unama.br
 ubiqua.uninorte.com.br
-ubiqua.unesc.br
 ubiqua.ung.com.br
-ubiqua.unifacimed.edu.br
-ubiqua.fasb.edu.br
-ubiqua.unijuazeiro.edu.br
-ubiqua.univeritas.com
 
 Para utilizar, insira o template (não necessário subir com os assets, basta o `index.php` e o arquivo `404.html`) na pasta `public`, como por exemplo, deixamos 2 temas pré configurados. A pasta tem que ter a sigla da instituição, por exemplo: uninassau, unama, uninorte, unesc e por ai vai.
 
