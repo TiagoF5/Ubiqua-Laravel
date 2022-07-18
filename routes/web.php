@@ -56,60 +56,11 @@ Route::domain('ubiqua.uninorte.com.br')->group(function () {
     });
 });
 
-Route::domain('ubiqua.unesc.br')->group(function () {
-    Route::get("/", function(){
-        try {
-            return File::get(public_path('unesc/index.php'));   
-        } catch (FileNotFoundException $e) {
-            abort(404); 
-        }
-    });
-});
 
 Route::domain('ubiqua.ung.com.br')->group(function () {
     Route::get("/", function(){
         try {
             return File::get(public_path('ung/index.php'));   
-        } catch (FileNotFoundException $e) {
-            abort(404); 
-        }
-    });
-});
-
-Route::domain('ubiqua.unifacimed.edu.br')->group(function () {
-    Route::get("/", function(){
-        try {
-            return File::get(public_path('unifacimed/index.php'));   
-        } catch (FileNotFoundException $e) {
-            abort(404); 
-        }
-    });
-});
-
-Route::domain('ubiqua.fasb.edu.br')->group(function () {
-    Route::get("/", function(){
-        try {
-            return File::get(public_path('fasb/index.php'));   
-        } catch (FileNotFoundException $e) {
-            abort(404); 
-        }
-    });
-});
-
-Route::domain('ubiqua.unijuazeiro.edu.br')->group(function () {
-    Route::get("/", function(){
-        try {
-            return File::get(public_path('unijuazeiro/index.php'));   
-        } catch (FileNotFoundException $e) {
-            abort(404); 
-        }
-    });
-});
-
-Route::domain('ubiqua.univeritas.com')->group(function () {
-    Route::get("/", function(){
-        try {
-            return File::get(public_path('univeritas/index.php'));   
         } catch (FileNotFoundException $e) {
             abort(404); 
         }
